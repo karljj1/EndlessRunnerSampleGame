@@ -1,0 +1,3 @@
+[submodule "Packages/upm-package-localization"]
+	path = Packages/upm-package-localization
+url=git@github.cds.internal.unity3d.com:unity/com.unity.localization.git
