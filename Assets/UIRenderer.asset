@@ -16,7 +16,7 @@ MonoBehaviour:
     passTag: UIPass
     Event: 300
     filterSettings:
-      RenderQueueType: 1
+      RenderQueueType: 0
       LayerMask:
         serializedVersion: 2
         m_Bits: 32
