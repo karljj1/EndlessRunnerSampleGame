@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9104983943250397484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Default Locale Selector
+  m_EditorClassIdentifier: Unity.Localization:UnityEngine.Localization:SpecificLocaleSelector
+  m_LocaleId:
+    m_Code: en
+--- !u!114 &-6461082438783941497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Locale Selector Collection
+  m_EditorClassIdentifier: Unity.Localization:UnityEngine.Localization:StartupLocaleSelectorCollection
+  m_StartupSelectors:
+  - {fileID: 1630369389497764527}
+  - {fileID: -4530496070282655031}
+  - {fileID: -9104983943250397484}
+--- !u!114 &-4530496070282655031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: System Locale Selector
+  m_EditorClassIdentifier: Unity.Localization:UnityEngine.Localization:SystemLocaleSelector
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Localization Settings
+  m_EditorClassIdentifier: Unity.Localization:UnityEngine.Localization:LocalizationSettings
+  m_PreloadBehavior: 1
+  m_LocaleSelector: {fileID: -6461082438783941497}
+  m_AvailableLocales: {fileID: 876437826097323640}
+  m_AssetDatabase: {fileID: 3460142387644236534}
+  m_StringDatabase: {fileID: 2408067495346756627}
+--- !u!114 &876437826097323640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Locales Provider
+  m_EditorClassIdentifier: Unity.Localization:UnityEngine.Localization:AddressableLocalesProvider
+--- !u!114 &1630369389497764527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Command Line Locale Selector
+  m_EditorClassIdentifier: Unity.Localization:UnityEngine.Localization:CommandLineLocaleSelector
+  m_CommandLineArgument: -language =
+--- !u!114 &2408067495346756627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: String Database
+  m_EditorClassIdentifier: Unity.Localization:UnityEngine.Localization:LocalizedStringDatabase
+  m_DefaultTableName: 
+  m_NoTranslationFoundFormat: No translation found for '{0}'
+--- !u!114 &3460142387644236534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Asset Database
+  m_EditorClassIdentifier: Unity.Localization:UnityEngine.Localization:LocalizedAssetDatabase
+  m_DefaultTableName: 
