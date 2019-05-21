@@ -18,4 +18,5 @@ EditorBuildSettings:
     AddressableAssetSettings: {fileID: 0}
     com.unity.addressableassets: {fileID: 11400000, guid: b326c184dbebf6b4e8e5be689c39d470,
       type: 2}
-    com.unity.localization.settings: {fileID: 0}
+    com.unity.localization.settings: {fileID: 11400000, guid: 0c5d95dc02050234da94dae459e0c807,
+      type: 2}

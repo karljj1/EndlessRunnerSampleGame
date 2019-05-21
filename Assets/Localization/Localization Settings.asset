@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9104983943250397484
+--- !u!114 &-8791877572613277108
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 26c27b7a97ae7cd47ac063fc4ede4bf9, type: 3}
   m_Name: Default Locale Selector
-  m_EditorClassIdentifier: Unity.Localization:UnityEngine.Localization:SpecificLocaleSelector
+  m_EditorClassIdentifier: 
   m_LocaleId:
     m_Code: en
---- !u!114 &-6461082438783941497
+--- !u!114 &-7003625668137166712
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23,25 +23,40 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 191ba231ae3bc4a77ae57c1218ffa02d, type: 3}
+  m_Name: String Database
+  m_EditorClassIdentifier: 
+  m_DefaultTableName: 
+  m_NoTranslationFoundFormat: No translation found for '{0}'
+--- !u!114 &-1699114433740582226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e87b7deaf11df7449ed2f6ebf26255b, type: 3}
+  m_Name: Command Line Locale Selector
+  m_EditorClassIdentifier: 
+  m_CommandLineArgument: -language =
+--- !u!114 &-42711991533168085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8548788adcad074458eeba3ef70291f4, type: 3}
   m_Name: Locale Selector Collection
-  m_EditorClassIdentifier: Unity.Localization:UnityEngine.Localization:StartupLocaleSelectorCollection
+  m_EditorClassIdentifier: 
   m_StartupSelectors:
-  - {fileID: 1630369389497764527}
-  - {fileID: -4530496070282655031}
-  - {fileID: -9104983943250397484}
---- !u!114 &-4530496070282655031
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: System Locale Selector
-  m_EditorClassIdentifier: Unity.Localization:UnityEngine.Localization:SystemLocaleSelector
+  - {fileID: -1699114433740582226}
+  - {fileID: 4546153607716172471}
+  - {fileID: -8791877572613277108}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51,15 +66,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: a07b5cd0b1b829245bc8c4b6978793e8, type: 3}
   m_Name: Localization Settings
-  m_EditorClassIdentifier: Unity.Localization:UnityEngine.Localization:LocalizationSettings
+  m_EditorClassIdentifier: 
   m_PreloadBehavior: 1
-  m_LocaleSelector: {fileID: -6461082438783941497}
-  m_AvailableLocales: {fileID: 876437826097323640}
-  m_AssetDatabase: {fileID: 3460142387644236534}
-  m_StringDatabase: {fileID: 2408067495346756627}
---- !u!114 &876437826097323640
+  m_LocaleSelector: {fileID: -42711991533168085}
+  m_AvailableLocales: {fileID: 8966749050943123523}
+  m_AssetDatabase: {fileID: 1529859225124331707}
+  m_StringDatabase: {fileID: -7003625668137166712}
+--- !u!114 &1529859225124331707
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -68,46 +83,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: Locales Provider
-  m_EditorClassIdentifier: Unity.Localization:UnityEngine.Localization:AddressableLocalesProvider
---- !u!114 &1630369389497764527
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: Command Line Locale Selector
-  m_EditorClassIdentifier: Unity.Localization:UnityEngine.Localization:CommandLineLocaleSelector
-  m_CommandLineArgument: -language =
---- !u!114 &2408067495346756627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: String Database
-  m_EditorClassIdentifier: Unity.Localization:UnityEngine.Localization:LocalizedStringDatabase
-  m_DefaultTableName: 
-  m_NoTranslationFoundFormat: No translation found for '{0}'
---- !u!114 &3460142387644236534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 00211f76d6dd01a4b8ee4d8c38f294bc, type: 3}
   m_Name: Asset Database
-  m_EditorClassIdentifier: Unity.Localization:UnityEngine.Localization:LocalizedAssetDatabase
+  m_EditorClassIdentifier: 
   m_DefaultTableName: 
+--- !u!114 &4546153607716172471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0677a1bc6a9163745955e732ad12992f, type: 3}
+  m_Name: System Locale Selector
+  m_EditorClassIdentifier: 
+--- !u!114 &8966749050943123523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1864ecc299aa57d439a91544702d03b9, type: 3}
+  m_Name: Locales Provider
+  m_EditorClassIdentifier: 

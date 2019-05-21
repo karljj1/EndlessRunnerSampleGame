@@ -309,10 +309,6 @@ MonoBehaviour:
     m_Address: Assets/Models/Daytime/RoadWorksCone.fbx
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: ab2cfde409d710b47b0b502877abb479
-    m_Address: Assets/Font/LuckiestGuy.ttf
-    m_ReadOnly: 0
-    m_SerializedLabels: []
   - m_GUID: ad9b4d3f2df395b4fb7ad98e98d4acdf
     m_Address: Assets/Textures/Car02Albedo.tif
     m_ReadOnly: 0

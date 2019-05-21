@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-ar
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-ar
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 8b4972ac867a6234a8ea773007fba8cd
+  m_SerializeEntries:
+  - m_GUID: b6b4385ec9a96d642ae4b609f0768e62
+    m_Address: BalooBhaijaan-Regular
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ar
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 735e874f947d0e143a6b4e83f8a7283a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3370be6524ff23d4da9f17a72a75e670, type: 2}
+    - {fileID: 11400000, guid: 3cf5f5f0fca724c46865cc321f4521a6, type: 2}

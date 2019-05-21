@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-ja
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-ja
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b5655cf469015664a8ff291e3965ecc7
+  m_SerializeEntries:
+  - m_GUID: eb95f750408c0fd429465fbef0e98eaf
+    m_Address: Corporate Logo Maru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 735e874f947d0e143a6b4e83f8a7283a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 23f03bd797ee4af44977ed0e8f7124a1, type: 2}
+    - {fileID: 11400000, guid: e4f1e8f660597f1438216e55190b8d56, type: 2}
