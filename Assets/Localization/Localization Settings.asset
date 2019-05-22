@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Default Locale Selector
   m_EditorClassIdentifier: 
   m_LocaleId:
-    m_Code: en
+    m_Code: ar
 --- !u!114 &-7003625668137166712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55,8 +55,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StartupSelectors:
   - {fileID: -1699114433740582226}
-  - {fileID: 4546153607716172471}
   - {fileID: -8791877572613277108}
+  - {fileID: 4546153607716172471}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -12,9 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
   m_Name: UI Keys
   m_EditorClassIdentifier: 
-  m_NextAvailableId: 3
+  m_NextAvailableId: 6
   m_Entries:
   - m_Id: 1
     m_Key: Run!
   - m_Id: 2
     m_Key: Start
+  - m_Id: 3
+    m_Key: Click to Start tutorial
+  - m_Id: 4
+    m_Key: NightTime
+  - m_Id: 5
+    m_Key: Day

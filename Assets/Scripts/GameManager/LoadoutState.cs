@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
+using UnityEngine.Localization;
 
 #if UNITY_ANALYTICS
 using UnityEngine.Analytics;
@@ -71,8 +72,13 @@ public class LoadoutState : AState
     protected int k_UILayer;
     protected readonly Quaternion k_FlippedYAxisRotation = Quaternion.Euler (0f, 180f, 0f);
 
+    LocalizedStringReference m_RunButtonText = new LocalizedStringReference() { TableName = "UI", Key = "Run!" };
+
     public override void Enter(AState from)
     {
+        LocalizationSettings.SelectedLocaleChanged += OnLocaleChanged;
+        m_RunButtonText.AutoUpdate = true;
+        m_RunButtonText.UpdateString.AddListener(SetRunButtonText);
         tutorialBlocker.SetActive(!PlayerData.instance.tutorialDone);
         tutorialPrompt.SetActive(false);
 
@@ -97,9 +103,9 @@ public class LoadoutState : AState
         }
 
         runButton.interactable = false;
-        runButton.GetComponentInChildren<Text>().text = "Loading...";
+        m_RunButtonText.Key = "Loading...";
 
-        if(m_PowerupToUse != Consumable.ConsumableType.NONE)
+        if (m_PowerupToUse != Consumable.ConsumableType.NONE)
         {
             //if we come back from a run and we don't have any more of the powerup we wanted to use, we reset the powerup to use to NONE
             if (!PlayerData.instance.consumables.ContainsKey(m_PowerupToUse) || PlayerData.instance.consumables[m_PowerupToUse] == 0)
@@ -109,8 +115,16 @@ public class LoadoutState : AState
         Refresh();
     }
 
+    void SetRunButtonText(string text)
+    {
+        runButton.GetComponentInChildren<Text>().text = text;
+    }
+
     public override void Exit(AState to)
     {
+        LocalizationSettings.SelectedLocaleChanged -= OnLocaleChanged;
+        m_RunButtonText.AutoUpdate = false;
+        m_RunButtonText.UpdateString.RemoveListener(SetRunButtonText);
         missionPopup.gameObject.SetActive(false);
         inventoryCanvas.gameObject.SetActive(false);
 
@@ -159,7 +173,7 @@ public class LoadoutState : AState
             if(interactable)
             {
                 runButton.interactable = true;
-                runButton.GetComponentInChildren<Text>().text = "Run!";
+                m_RunButtonText.Key = "Run!";
 
                 //we can always enabled, as the parent will be disabled if tutorial is already done
                 tutorialPrompt.SetActive(true);
@@ -228,12 +242,18 @@ public class LoadoutState : AState
             yield return null;
         }
 
-        themeNameDisplay.text = t.themeName;
+        LocalizationSettings.StringDatabase.GetLocalizedString("UI", t.themeName).Completed += (obj) => themeNameDisplay.text = obj.Result;
+        LocalizationSettings.AssetDatabase.GetLocalizedAssetAsync<Font>("UI Fonts", "LuckiestGuy").Completed += (obj) => themeNameDisplay.font = obj.Result;
+
 		themeIcon.sprite = t.themeIcon;
 
 		skyMeshFilter.sharedMesh = t.skyMesh;
         UIGroundFilter.sharedMesh = t.UIGroundMesh;
 	}
+
+    private void LoadoutStateString_Completed(AsyncOperationHandle<string> obj)
+    {
+    }
 
     public IEnumerator PopulateCharacters()
     {
@@ -291,7 +311,12 @@ public class LoadoutState : AState
                         Addressables.ReleaseInstance(m_Character);
 
                     m_Character = newChar;
-                    charNameDisplay.text = c.characterName;
+
+                    var stringOp = LocalizationSettings.StringDatabase.GetLocalizedString("UI", c.characterName);
+                    if (!stringOp.IsDone)
+                        yield return stringOp;
+
+                    charNameDisplay.text = stringOp.Result;
 
                     m_Character.transform.localPosition = Vector3.right * 1000;
                     //animator will take a frame to initialize, during which the character will be in a T-pose.
@@ -410,5 +435,10 @@ public class LoadoutState : AState
 		leaderboard.displayPlayer = false;
 		leaderboard.forcePlayerDisplay = false;
 		leaderboard.Open();
+    }
+
+    protected void OnLocaleChanged(Locale newLocale)
+    {
+        Refresh();
     }
 }

@@ -21,7 +21,6 @@ public class LocalizeFont : LocalizationBehaviour
 
     protected override void OnLocaleChanged(Locale newLocale)
     {
-
         var loadOp = m_Reference.LoadAssetAsync();
         loadOp.Completed += LoadCompleted;
     }
