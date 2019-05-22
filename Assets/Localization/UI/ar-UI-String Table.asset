@@ -53,3 +53,17 @@ MonoBehaviour:
     m_Id: 5
     m_Translated:
     - "\u064A\u0648\u0645"
+  - m_Comments:
+      translatorComments: []
+      extractedComments: []
+      referenceComments: []
+    m_Id: 6
+    m_Translated:
+    - "\u0627\u0644\u0642\u0637 \u0627\u0644\u0642\u0645\u0627\u0645\u0629"
+  - m_Comments:
+      translatorComments: []
+      extractedComments: []
+      referenceComments: []
+    m_Id: 7
+    m_Translated:
+    - "\u0627\u0644\u0642\u0645\u0627\u0645\u0629 \u0627\u0644\u0631\u0627\u0643\u0648\u0646"

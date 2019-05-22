@@ -52,3 +52,17 @@ MonoBehaviour:
     m_Id: 5
     m_Translated:
     - Day
+  - m_Comments:
+      translatorComments: []
+      extractedComments: []
+      referenceComments: []
+    m_Id: 6
+    m_Translated:
+    - Trash Cat
+  - m_Comments:
+      translatorComments: []
+      extractedComments: []
+      referenceComments: []
+    m_Id: 7
+    m_Translated:
+    - Rubbish Raccoon

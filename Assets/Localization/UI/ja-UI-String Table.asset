@@ -52,3 +52,17 @@ MonoBehaviour:
     m_Id: 5
     m_Translated:
     - "\u65E5"
+  - m_Comments:
+      translatorComments: []
+      extractedComments: []
+      referenceComments: []
+    m_Id: 6
+    m_Translated:
+    - "\u30B4\u30DF\u732B"
+  - m_Comments:
+      translatorComments: []
+      extractedComments: []
+      referenceComments: []
+    m_Id: 7
+    m_Translated:
+    - "\u30B4\u30DF\u306E\u30A2\u30E9\u30A4\u30B0\u30DE"
