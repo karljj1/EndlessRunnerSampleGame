@@ -29,7 +29,7 @@ public class LocalizeFont : LocalizationBehaviour
     {
         if (obj.Status != AsyncOperationStatus.Succeeded)
         {
-            var error = "Failed to load texture: " + m_Reference;
+            var error = "Failed to load font: " + m_Reference;
             if (obj.OperationException != null)
                 error += "\n" + obj.OperationException;
 

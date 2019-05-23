@@ -12,19 +12,90 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
   m_Name: UI Keys
   m_EditorClassIdentifier: 
-  m_NextAvailableId: 8
+  m_NextAvailableId: 41
   m_Entries:
-  - m_Id: 1
-    m_Key: Run!
-  - m_Id: 2
-    m_Key: Start
-  - m_Id: 3
-    m_Key: Click to Start tutorial
-  - m_Id: 4
-    m_Key: NightTime
-  - m_Id: 5
-    m_Key: Day
   - m_Id: 6
     m_Key: Trash Cat
+  - m_Id: 2
+    m_Key: Start
+  - m_Id: 10
+    m_Key: "Slide sideway \nto change lane"
+  - m_Id: 8
+    m_Key: 'SCORE : '
+  - m_Id: 1
+    m_Key: Run!
   - m_Id: 7
     m_Key: Rubbish Raccoon
+  - m_Id: 4
+    m_Key: NightTime
+  - m_Id: 9
+    m_Key: 'Distance : {0}'
+  - m_Id: 5
+    m_Key: Day
+  - m_Id: 3
+    m_Key: Click to Start tutorial
+  - m_Id: 11
+    m_Key: "All purchases in this game will go directly to GameChanger!\r\n\r\nGameChanger
+      is Unity's charitable partner, helping to leverage innovation and technology
+      to ease the pain and suffering of children with life-threatening illnesses.\r\n\r\nTo
+      find out more about GameChanger, \r\nclick the button below"
+  - m_Id: 12
+    m_Key: "Trash Dash is a sample game project from Unity Technologies, creators
+      of the Unity game engine. \n\nTo learn how this game is made, and how you can
+      make your own games, visit our website!"
+  - m_Id: 13
+    m_Key: Accessory
+  - m_Id: 14
+    m_Key: Currency
+  - m_Id: 15
+    m_Key: Enter Name
+  - m_Id: 16
+    m_Key: Enter text...
+  - m_Id: 17
+    m_Key: You will loose all bought items and currencies, are you sure?
+  - m_Id: 18
+    m_Key: RESUME
+  - m_Id: 19
+    m_Key: Prev
+  - m_Id: 20
+    m_Key: Next
+  - m_Id: 21
+    m_Key: Leaderboard
+  - m_Id: 22
+    m_Key: STORE
+  - m_Id: 23
+    m_Key: MISSIONS
+  - m_Id: 24
+    m_Key: BACK
+  - m_Id: 25
+    m_Key: NO
+  - m_Id: 26
+    m_Key: YES
+  - m_Id: 27
+    m_Key: ABOUT
+  - m_Id: 28
+    m_Key: DELETE DATA
+  - m_Id: 29
+    m_Key: MUSIC
+  - m_Id: 30
+    m_Key: MASTER
+  - m_Id: 31
+    m_Key: Settings
+  - m_Id: 32
+    m_Key: PAUSED
+  - m_Id: 33
+    m_Key: MAIN MENU
+  - m_Id: 34
+    m_Key: GAME OVER
+  - m_Id: 35
+    m_Key: Go To Loadout
+  - m_Id: 36
+    m_Key: "Slide down \nto slide"
+  - m_Id: 37
+    m_Key: Congratulation, you now know how to play the Game!
+  - m_Id: 38
+    m_Key: "Slide up \nto jump"
+  - m_Id: 39
+    m_Key: Confirm!
+  - m_Id: 40
+    m_Key: About

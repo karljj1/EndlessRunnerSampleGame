@@ -286,6 +286,8 @@ GameObject:
   - component: {fileID: 6858983}
   - component: {fileID: 6858985}
   - component: {fileID: 6858984}
+  - component: {fileID: 6858987}
+  - component: {fileID: 6858986}
   m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
@@ -354,6 +356,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6858982}
   m_CullTransparentMesh: 0
+--- !u!114 &6858986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6858982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6858984}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &6858987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6858982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 33
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6858984}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &23242377
 GameObject:
   m_ObjectHideFlags: 0
@@ -1336,6 +1411,8 @@ GameObject:
   - component: {fileID: 87177690}
   - component: {fileID: 87177689}
   - component: {fileID: 87177688}
+  - component: {fileID: 87177692}
+  - component: {fileID: 87177691}
   m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
@@ -1419,6 +1496,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 87177686}
   m_CullTransparentMesh: 0
+--- !u!114 &87177691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87177686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 87177689}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &87177692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87177686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 32
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 87177689}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &105448109
 GameObject:
   m_ObjectHideFlags: 0
@@ -1430,6 +1580,8 @@ GameObject:
   - component: {fileID: 105448110}
   - component: {fileID: 105448112}
   - component: {fileID: 105448111}
+  - component: {fileID: 105448114}
+  - component: {fileID: 105448113}
   m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
@@ -1498,6 +1650,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 105448109}
   m_CullTransparentMesh: 0
+--- !u!114 &105448113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105448109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 105448111}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &105448114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105448109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 38
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 105448111}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!224 &137514648 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 224000013969192492, guid: a53fe2875371488408daf0df7d69a981,
@@ -2161,6 +2386,8 @@ GameObject:
   - component: {fileID: 216085446}
   - component: {fileID: 216085448}
   - component: {fileID: 216085447}
+  - component: {fileID: 216085450}
+  - component: {fileID: 216085449}
   m_Layer: 5
   m_Name: Placeholder
   m_TagString: Untagged
@@ -2229,6 +2456,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 216085445}
   m_CullTransparentMesh: 0
+--- !u!114 &216085449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216085445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 216085447}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &216085450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216085445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 16
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 216085447}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1001 &218180429
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2508,6 +2808,8 @@ GameObject:
   - component: {fileID: 264326009}
   - component: {fileID: 264326011}
   - component: {fileID: 264326010}
+  - component: {fileID: 264326013}
+  - component: {fileID: 264326012}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -2576,6 +2878,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 264326008}
   m_CullTransparentMesh: 0
+--- !u!114 &264326012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264326008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 264326010}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &264326013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264326008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 20
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 264326010}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &267877885
 GameObject:
   m_ObjectHideFlags: 0
@@ -2699,6 +3074,8 @@ GameObject:
   - component: {fileID: 275161919}
   - component: {fileID: 275161918}
   - component: {fileID: 275161917}
+  - component: {fileID: 275161921}
+  - component: {fileID: 275161920}
   m_Layer: 5
   m_Name: TitleText
   m_TagString: Untagged
@@ -2784,6 +3161,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 275161915}
   m_CullTransparentMesh: 0
+--- !u!114 &275161920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275161915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 275161918}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &275161921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275161915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 27
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 275161918}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!4 &282491579 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4164161110307184, guid: 8cede34fb26a722408198e0d27628ae9,
@@ -2977,6 +3427,8 @@ GameObject:
   - component: {fileID: 341183450}
   - component: {fileID: 341183452}
   - component: {fileID: 341183451}
+  - component: {fileID: 341183454}
+  - component: {fileID: 341183453}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -3048,6 +3500,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 341183449}
   m_CullTransparentMesh: 0
+--- !u!114 &341183453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341183449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 341183451}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &341183454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341183449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 23
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 341183451}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &360101520
 GameObject:
   m_ObjectHideFlags: 0
@@ -3691,6 +4216,8 @@ GameObject:
   - component: {fileID: 418704410}
   - component: {fileID: 418704412}
   - component: {fileID: 418704411}
+  - component: {fileID: 418704414}
+  - component: {fileID: 418704413}
   m_Layer: 5
   m_Name: TitleText
   m_TagString: Untagged
@@ -3759,6 +4286,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 418704409}
   m_CullTransparentMesh: 0
+--- !u!114 &418704413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418704409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 418704411}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &418704414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418704409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 39
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 418704411}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &428968435
 GameObject:
   m_ObjectHideFlags: 0
@@ -3847,6 +4447,8 @@ GameObject:
   - component: {fileID: 434205412}
   - component: {fileID: 434205411}
   - component: {fileID: 434205413}
+  - component: {fileID: 434205415}
+  - component: {fileID: 434205414}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -3930,6 +4532,79 @@ MonoBehaviour:
   m_EffectColor: {r: 0.3647059, g: 0.34901962, b: 0.40392157, a: 1}
   m_EffectDistance: {x: 4, y: -6}
   m_UseGraphicAlpha: 1
+--- !u!114 &434205414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434205409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 434205411}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &434205415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434205409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 31
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 434205411}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &439145910
 GameObject:
   m_ObjectHideFlags: 0
@@ -3942,6 +4617,7 @@ GameObject:
   - component: {fileID: 439145911}
   - component: {fileID: 439145913}
   - component: {fileID: 439145912}
+  - component: {fileID: 439145914}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -3966,7 +4642,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.09999418, y: 0.00003671646}
+  m_AnchoredPosition: {x: -0.099990845, y: 0.000038146973}
   m_SizeDelta: {x: 0.20001, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &439145912
@@ -4013,6 +4689,47 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 439145910}
   m_CullTransparentMesh: 0
+--- !u!114 &439145914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439145910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 21
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 439145912}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &455205747
 GameObject:
   m_ObjectHideFlags: 0
@@ -4387,6 +5104,8 @@ GameObject:
   - component: {fileID: 491729094}
   - component: {fileID: 491729096}
   - component: {fileID: 491729095}
+  - component: {fileID: 491729098}
+  - component: {fileID: 491729097}
   m_Layer: 5
   m_Name: AboutGameChangerText
   m_TagString: Untagged
@@ -4459,6 +5178,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 491729093}
   m_CullTransparentMesh: 0
+--- !u!114 &491729097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491729093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 11
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 491729095}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
+--- !u!114 &491729098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491729093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 491729095}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &497844655
 GameObject:
   m_ObjectHideFlags: 0
@@ -4925,6 +5717,8 @@ GameObject:
   - component: {fileID: 524151832}
   - component: {fileID: 524151834}
   - component: {fileID: 524151833}
+  - component: {fileID: 524151836}
+  - component: {fileID: 524151835}
   m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
@@ -4993,6 +5787,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524151831}
   m_CullTransparentMesh: 0
+--- !u!114 &524151835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524151831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 524151833}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &524151836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524151831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 10
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 524151833}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &532293851
 GameObject:
   m_ObjectHideFlags: 0
@@ -5004,6 +5871,8 @@ GameObject:
   - component: {fileID: 532293852}
   - component: {fileID: 532293854}
   - component: {fileID: 532293853}
+  - component: {fileID: 532293856}
+  - component: {fileID: 532293855}
   m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
@@ -5072,6 +5941,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532293851}
   m_CullTransparentMesh: 0
+--- !u!114 &532293855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532293851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 532293853}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &532293856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532293851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 36
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 532293853}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &536392327
 GameObject:
   m_ObjectHideFlags: 0
@@ -6960,6 +7902,8 @@ GameObject:
   - component: {fileID: 681311098}
   - component: {fileID: 681311100}
   - component: {fileID: 681311099}
+  - component: {fileID: 681311102}
+  - component: {fileID: 681311101}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -7028,6 +7972,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 681311097}
   m_CullTransparentMesh: 0
+--- !u!114 &681311101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681311097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 681311099}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &681311102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681311097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 28
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 681311099}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &684092553
 GameObject:
   m_ObjectHideFlags: 0
@@ -8040,6 +9057,8 @@ GameObject:
   - component: {fileID: 788409694}
   - component: {fileID: 788409696}
   - component: {fileID: 788409695}
+  - component: {fileID: 788409698}
+  - component: {fileID: 788409697}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -8108,6 +9127,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 788409693}
   m_CullTransparentMesh: 0
+--- !u!114 &788409697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788409693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 788409695}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &788409698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788409693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 30
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 788409695}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &792989565
 GameObject:
   m_ObjectHideFlags: 0
@@ -8120,6 +9212,8 @@ GameObject:
   - component: {fileID: 792989568}
   - component: {fileID: 792989567}
   - component: {fileID: 792989569}
+  - component: {fileID: 792989571}
+  - component: {fileID: 792989570}
   m_Layer: 0
   m_Name: ScoreLabel
   m_TagString: Untagged
@@ -8169,7 +9263,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: ab2cfde409d710b47b0b502877abb479, type: 3}
-    m_FontSize: 46
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -8178,7 +9272,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'SCORE : '
 --- !u!222 &792989568
@@ -8204,6 +9298,79 @@ MonoBehaviour:
   m_EffectColor: {r: 0.14217742, g: 0.08434255, b: 0.28676468, a: 0.65}
   m_EffectDistance: {x: 3, y: -3}
   m_UseGraphicAlpha: 1
+--- !u!114 &792989570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792989565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 792989567}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &792989571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792989565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 8
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 792989567}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &797198306
 GameObject:
   m_ObjectHideFlags: 0
@@ -8216,6 +9383,8 @@ GameObject:
   - component: {fileID: 797198307}
   - component: {fileID: 797198309}
   - component: {fileID: 797198308}
+  - component: {fileID: 797198311}
+  - component: {fileID: 797198310}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -8287,6 +9456,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 797198306}
   m_CullTransparentMesh: 0
+--- !u!114 &797198310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797198306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 797198308}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &797198311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797198306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 22
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 797198308}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &800368187
 GameObject:
   m_ObjectHideFlags: 0
@@ -8473,6 +9715,8 @@ GameObject:
   - component: {fileID: 826198190}
   - component: {fileID: 826198192}
   - component: {fileID: 826198191}
+  - component: {fileID: 826198194}
+  - component: {fileID: 826198193}
   m_Layer: 0
   m_Name: Resume
   m_TagString: Untagged
@@ -8541,6 +9785,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 826198189}
   m_CullTransparentMesh: 0
+--- !u!114 &826198193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826198189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 826198191}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &826198194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826198189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 18
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 826198191}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &829118694
 GameObject:
   m_ObjectHideFlags: 0
@@ -10314,6 +11631,8 @@ GameObject:
   - component: {fileID: 954757549}
   - component: {fileID: 954757551}
   - component: {fileID: 954757550}
+  - component: {fileID: 954757553}
+  - component: {fileID: 954757552}
   m_Layer: 5
   m_Name: AboutUnityText
   m_TagString: Untagged
@@ -10385,6 +11704,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 954757548}
   m_CullTransparentMesh: 0
+--- !u!114 &954757552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954757548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 954757550}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &954757553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954757548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 12
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 954757550}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &960587897
 GameObject:
   m_ObjectHideFlags: 0
@@ -10958,6 +12350,97 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 972301424}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &975858311 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000011746722652, guid: a53fe2875371488408daf0df7d69a981,
+    type: 3}
+  m_PrefabInstance: {fileID: 80306026}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &975858312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975858311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 975858314}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &975858313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975858311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 23
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 975858314}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
+--- !u!114 &975858314 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114000011574590450, guid: a53fe2875371488408daf0df7d69a981,
+    type: 3}
+  m_PrefabInstance: {fileID: 80306026}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975858311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000846851
 GameObject:
   m_ObjectHideFlags: 0
@@ -11423,6 +12906,8 @@ GameObject:
   - component: {fileID: 1019362671}
   - component: {fileID: 1019362673}
   - component: {fileID: 1019362672}
+  - component: {fileID: 1019362675}
+  - component: {fileID: 1019362674}
   m_Layer: 5
   m_Name: Placeholder
   m_TagString: Untagged
@@ -11494,6 +12979,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1019362670}
   m_CullTransparentMesh: 0
+--- !u!114 &1019362674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019362670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1019362672}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1019362675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019362670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 15
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1019362672}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &1034873124
 GameObject:
   m_ObjectHideFlags: 0
@@ -11505,6 +13063,8 @@ GameObject:
   - component: {fileID: 1034873125}
   - component: {fileID: 1034873127}
   - component: {fileID: 1034873126}
+  - component: {fileID: 1034873129}
+  - component: {fileID: 1034873128}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -11573,6 +13133,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1034873124}
   m_CullTransparentMesh: 0
+--- !u!114 &1034873128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034873124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1034873126}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1034873129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034873124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 25
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1034873126}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &1036523118
 GameObject:
   m_ObjectHideFlags: 0
@@ -12006,6 +13639,8 @@ GameObject:
   - component: {fileID: 1057000690}
   - component: {fileID: 1057000692}
   - component: {fileID: 1057000691}
+  - component: {fileID: 1057000694}
+  - component: {fileID: 1057000693}
   m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
@@ -12029,7 +13664,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 4.8999634, y: 158}
+  m_AnchoredPosition: {x: 4.8984375, y: 158}
   m_SizeDelta: {x: -63.8, y: -316.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1057000691
@@ -12074,6 +13709,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1057000689}
   m_CullTransparentMesh: 0
+--- !u!114 &1057000693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057000689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1057000691}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1057000694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057000689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 37
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1057000691}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &1071334640
 GameObject:
   m_ObjectHideFlags: 0
@@ -12086,6 +13794,8 @@ GameObject:
   - component: {fileID: 1071334643}
   - component: {fileID: 1071334642}
   - component: {fileID: 1071334644}
+  - component: {fileID: 1071334646}
+  - component: {fileID: 1071334645}
   m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
@@ -12169,6 +13879,79 @@ MonoBehaviour:
   m_EffectColor: {r: 0.3647059, g: 0.34901962, b: 0.4039216, a: 0.925}
   m_EffectDistance: {x: 0, y: -4}
   m_UseGraphicAlpha: 1
+--- !u!114 &1071334645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071334640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1071334642}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1071334646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071334640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 34
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1071334642}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &1071772559
 GameObject:
   m_ObjectHideFlags: 0
@@ -12783,6 +14566,8 @@ GameObject:
   - component: {fileID: 1099157487}
   - component: {fileID: 1099157489}
   - component: {fileID: 1099157488}
+  - component: {fileID: 1099157491}
+  - component: {fileID: 1099157490}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -12851,6 +14636,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1099157486}
   m_CullTransparentMesh: 0
+--- !u!114 &1099157490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099157486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1099157488}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1099157491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099157486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 29
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1099157488}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &1102885380
 GameObject:
   m_ObjectHideFlags: 0
@@ -12863,6 +14721,8 @@ GameObject:
   - component: {fileID: 1102885381}
   - component: {fileID: 1102885383}
   - component: {fileID: 1102885382}
+  - component: {fileID: 1102885385}
+  - component: {fileID: 1102885384}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -12934,6 +14794,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1102885380}
   m_CullTransparentMesh: 0
+--- !u!114 &1102885384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102885380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1102885382}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1102885385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102885380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 33
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1102885382}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &1104783248
 GameObject:
   m_ObjectHideFlags: 0
@@ -14275,6 +16208,8 @@ GameObject:
   - component: {fileID: 1195921771}
   - component: {fileID: 1195921773}
   - component: {fileID: 1195921772}
+  - component: {fileID: 1195921775}
+  - component: {fileID: 1195921774}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -14343,6 +16278,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1195921770}
   m_CullTransparentMesh: 0
+--- !u!114 &1195921774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195921770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1195921772}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1195921775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195921770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 19
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1195921772}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &1213395987
 GameObject:
   m_ObjectHideFlags: 0
@@ -15646,6 +17654,8 @@ GameObject:
   - component: {fileID: 1286321975}
   - component: {fileID: 1286321977}
   - component: {fileID: 1286321976}
+  - component: {fileID: 1286321979}
+  - component: {fileID: 1286321978}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -15714,6 +17724,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1286321974}
   m_CullTransparentMesh: 0
+--- !u!114 &1286321978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286321974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1286321976}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1286321979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286321974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 27
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1286321976}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &1295762621
 GameObject:
   m_ObjectHideFlags: 0
@@ -16719,6 +18802,8 @@ GameObject:
   - component: {fileID: 1320188555}
   - component: {fileID: 1320188554}
   - component: {fileID: 1320188556}
+  - component: {fileID: 1320188558}
+  - component: {fileID: 1320188557}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -16803,6 +18888,79 @@ MonoBehaviour:
   m_EffectColor: {r: 0.3647059, g: 0.34901962, b: 0.4039216, a: 1}
   m_EffectDistance: {x: 3, y: -3}
   m_UseGraphicAlpha: 1
+--- !u!114 &1320188557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320188552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1320188554}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1320188558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320188552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 21
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1320188554}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &1320600320
 GameObject:
   m_ObjectHideFlags: 0
@@ -16851,6 +19009,8 @@ GameObject:
   - component: {fileID: 1338547830}
   - component: {fileID: 1338547833}
   - component: {fileID: 1338547832}
+  - component: {fileID: 1338547834}
+  - component: {fileID: 1338547831}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -16877,6 +19037,38 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1338547831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338547829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1338547832}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &1338547832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16919,6 +19111,47 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1338547829}
   m_CullTransparentMesh: 0
+--- !u!114 &1338547834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338547829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 24
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1338547832}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &1360779320
 GameObject:
   m_ObjectHideFlags: 0
@@ -17361,7 +19594,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 4.8999634, y: 145.79999}
+  m_AnchoredPosition: {x: 4.8984375, y: 145.79999}
   m_SizeDelta: {x: -272.8, y: 90.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1375722036
@@ -17601,6 +19834,8 @@ GameObject:
   - component: {fileID: 1394215950}
   - component: {fileID: 1394215949}
   - component: {fileID: 1394215948}
+  - component: {fileID: 1394215952}
+  - component: {fileID: 1394215951}
   m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
@@ -17684,6 +19919,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1394215946}
   m_CullTransparentMesh: 0
+--- !u!114 &1394215951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394215946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1394215949}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1394215952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394215946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 35
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1394215949}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &1397381358
 GameObject:
   m_ObjectHideFlags: 0
@@ -19124,6 +21432,8 @@ GameObject:
   - component: {fileID: 1514645902}
   - component: {fileID: 1514645901}
   - component: {fileID: 1514645903}
+  - component: {fileID: 1514645905}
+  - component: {fileID: 1514645904}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -19210,6 +21520,79 @@ MonoBehaviour:
   m_EffectColor: {r: 0.3647059, g: 0.34901962, b: 0.4039216, a: 0.5}
   m_EffectDistance: {x: 0, y: -12}
   m_UseGraphicAlpha: 1
+--- !u!114 &1514645904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514645899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1514645901}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1514645905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514645899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 34
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1514645901}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!224 &1517971671
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19876,6 +22259,8 @@ GameObject:
   - component: {fileID: 1581550609}
   - component: {fileID: 1581550611}
   - component: {fileID: 1581550610}
+  - component: {fileID: 1581550613}
+  - component: {fileID: 1581550612}
   m_Layer: 5
   m_Name: AccessoryName
   m_TagString: Untagged
@@ -19946,6 +22331,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1581550608}
   m_CullTransparentMesh: 0
+--- !u!114 &1581550612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581550608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1581550610}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1581550613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581550608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 13
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1581550610}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &1584607507
 GameObject:
   m_ObjectHideFlags: 0
@@ -20788,6 +23246,8 @@ GameObject:
   - component: {fileID: 1641042603}
   - component: {fileID: 1641042605}
   - component: {fileID: 1641042604}
+  - component: {fileID: 1641042607}
+  - component: {fileID: 1641042606}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -20856,6 +23316,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1641042602}
   m_CullTransparentMesh: 0
+--- !u!114 &1641042606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641042602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1641042604}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1641042607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641042602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 27
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1641042604}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &1653182061
 GameObject:
   m_ObjectHideFlags: 0
@@ -22836,6 +25369,8 @@ GameObject:
   - component: {fileID: 1810179381}
   - component: {fileID: 1810179383}
   - component: {fileID: 1810179382}
+  - component: {fileID: 1810179385}
+  - component: {fileID: 1810179384}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -22904,6 +25439,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1810179380}
   m_CullTransparentMesh: 0
+--- !u!114 &1810179384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810179380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1810179382}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1810179385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810179380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 23
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1810179382}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1001 &1810322594
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23269,7 +25877,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -103, y: -55.299988}
+  m_AnchoredPosition: {x: -103, y: -55.30005}
   m_SizeDelta: {x: 186, y: 75.20001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1822183925
@@ -23510,6 +26118,8 @@ GameObject:
   - component: {fileID: 1824968644}
   - component: {fileID: 1824968646}
   - component: {fileID: 1824968645}
+  - component: {fileID: 1824968648}
+  - component: {fileID: 1824968647}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -23578,6 +26188,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824968643}
   m_CullTransparentMesh: 0
+--- !u!114 &1824968647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824968643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1824968645}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1824968648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824968643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 26
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1824968645}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &1826149885
 GameObject:
   m_ObjectHideFlags: 0
@@ -23974,6 +26657,8 @@ GameObject:
   - component: {fileID: 1839729606}
   - component: {fileID: 1839729608}
   - component: {fileID: 1839729607}
+  - component: {fileID: 1839729610}
+  - component: {fileID: 1839729609}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -24042,6 +26727,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1839729605}
   m_CullTransparentMesh: 0
+--- !u!114 &1839729609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839729605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1839729607}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1839729610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839729605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 22
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1839729607}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &1841838543
 GameObject:
   m_ObjectHideFlags: 0
@@ -24539,6 +27297,97 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1885294323}
   m_CullTransparentMesh: 0
+--- !u!1 &1892225735 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000011746722652, guid: a53fe2875371488408daf0df7d69a981,
+    type: 3}
+  m_PrefabInstance: {fileID: 1822972501}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1892225736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892225735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1892225738}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1892225737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892225735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 23
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1892225738}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
+--- !u!114 &1892225738 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114000011574590450, guid: a53fe2875371488408daf0df7d69a981,
+    type: 3}
+  m_PrefabInstance: {fileID: 1822972501}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892225735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1916993085
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25119,6 +27968,8 @@ GameObject:
   - component: {fileID: 1967966879}
   - component: {fileID: 1967966881}
   - component: {fileID: 1967966880}
+  - component: {fileID: 1967966883}
+  - component: {fileID: 1967966882}
   m_Layer: 5
   m_Name: QueryText
   m_TagString: Untagged
@@ -25187,6 +28038,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1967966878}
   m_CullTransparentMesh: 0
+--- !u!114 &1967966882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967966878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1967966880}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1967966883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967966878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 17
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1967966880}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &1971115929
 GameObject:
   m_ObjectHideFlags: 0
@@ -25294,6 +28218,8 @@ GameObject:
   - component: {fileID: 1976225066}
   - component: {fileID: 1976225068}
   - component: {fileID: 1976225067}
+  - component: {fileID: 1976225070}
+  - component: {fileID: 1976225069}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -25364,6 +28290,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1976225065}
   m_CullTransparentMesh: 0
+--- !u!114 &1976225069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976225065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1976225067}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1976225070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976225065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 31
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1976225067}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1 &1984436777
 GameObject:
   m_ObjectHideFlags: 0
@@ -25556,6 +28555,8 @@ GameObject:
   - component: {fileID: 2001643351}
   - component: {fileID: 2001643353}
   - component: {fileID: 2001643352}
+  - component: {fileID: 2001643355}
+  - component: {fileID: 2001643354}
   m_Layer: 0
   m_Name: CurrencyText
   m_TagString: Untagged
@@ -25624,6 +28625,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2001643350}
   m_CullTransparentMesh: 0
+--- !u!114 &2001643354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001643350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8332c868b036ee43ae3a900c2f4fd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Reference:
+    m_TableName: UI Fonts
+    m_Key: 
+    m_KeyId: 1
+  m_UpdateFont:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2001643352}
+        m_MethodName: set_font
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: LocalizeFont+LocalizationUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &2001643355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001643350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8bf96cc622e48a6bc0f772dd5f2c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableName: UI
+    m_Key: 
+    m_KeyId: 14
+    m_UpdateString:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Localization.LocalizedStringReference+LocalizationUnityEvent,
+        Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_IsPlural: 0
+    m_PluralValue: 0
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2001643352}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Localization.Components.LocalizeString+LocalizationUnityEvent,
+      Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsPlural: 0
+  m_PluralValue: 1
 --- !u!1001 &2018040213
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26067,7 +29141,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.0000023841858, y: -55.3}
+  m_AnchoredPosition: {x: -0.0000023841858, y: -55.30005}
   m_SizeDelta: {x: 223.5, y: 75.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2036954778
