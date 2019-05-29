@@ -17,6 +17,12 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 31b7115171c87824fbe7dfdafe53052f
   m_SerializeEntries:
+  - m_GUID: 25081deee8e73b343a11c77e212d3246
+    m_Address: de - Flag
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - AssetTable
+    - Locale-de
   - m_GUID: 471eaa0f567601e4e88c4ed4fffd7906
     m_Address: ja - UI Fonts
     m_ReadOnly: 1
@@ -29,12 +35,30 @@ MonoBehaviour:
     m_SerializedLabels:
     - AssetTable
     - Locale-en
+  - m_GUID: 6bb5de5d1e9648c47bb42089b45f1323
+    m_Address: ar - Flag
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - AssetTable
+    - Locale-ar
+  - m_GUID: 7858dcc10103fb0488e6a469a7e36180
+    m_Address: ja - Flag
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - AssetTable
+    - Locale-ja
   - m_GUID: 9293f503b45d3504fbacae02ad0a247e
     m_Address: ar - UI Fonts
     m_ReadOnly: 1
     m_SerializedLabels:
     - AssetTable
     - Locale-ar
+  - m_GUID: aa38f98c851d41042ae40e6f37afbc47
+    m_Address: en - Flag
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - AssetTable
+    - Locale-en
   - m_GUID: b0cfd9d176b2e3f438eda6a351320f6f
     m_Address: de - UI Fonts
     m_ReadOnly: 1

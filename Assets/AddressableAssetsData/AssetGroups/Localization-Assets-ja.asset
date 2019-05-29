@@ -17,6 +17,11 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: b5655cf469015664a8ff291e3965ecc7
   m_SerializeEntries:
+  - m_GUID: c34fc5f665b0836478a134135afa52a4
+    m_Address: flag-japan
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
   - m_GUID: eb95f750408c0fd429465fbef0e98eaf
     m_Address: Corporate Logo Maru
     m_ReadOnly: 1

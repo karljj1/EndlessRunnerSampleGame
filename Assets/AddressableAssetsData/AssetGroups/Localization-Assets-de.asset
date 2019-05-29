@@ -10,26 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Localization-Assets-ar
+  m_Name: Localization-Assets-de
   m_EditorClassIdentifier: 
-  m_GroupName: Localization-Assets-ar
+  m_GroupName: Localization-Assets-de
   m_Data:
     m_SerializedData: []
-  m_GUID: 8b4972ac867a6234a8ea773007fba8cd
+  m_GUID: 58c6ddd883f3f854198b60528c701ef6
   m_SerializeEntries:
-  - m_GUID: 9c153d4c1f0069f479480cdbd84604ae
-    m_Address: flag-arabic
+  - m_GUID: af35f041a957d7145b2da6e7f81f27c1
+    m_Address: flag-germany
     m_ReadOnly: 1
     m_SerializedLabels:
-    - Locale-ar
-  - m_GUID: b6b4385ec9a96d642ae4b609f0768e62
-    m_Address: BalooBhaijaan-Regular
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-ar
+    - Locale-de
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 735e874f947d0e143a6b4e83f8a7283a, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 3370be6524ff23d4da9f17a72a75e670, type: 2}
-    - {fileID: 11400000, guid: 3cf5f5f0fca724c46865cc321f4521a6, type: 2}
+    - {fileID: 11400000, guid: 1053540b1e39bb94cbb9851fbf65543d, type: 2}
+    - {fileID: 11400000, guid: dde1b2417c7c10841a3287d9d0f04269, type: 2}
