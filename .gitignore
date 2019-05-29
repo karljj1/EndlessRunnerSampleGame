@@ -41,3 +41,5 @@ Plugins.meta
 */Plugins/Editor/JetBrains
 */Plugins/Editor/JetBrains.meta
 Packages/com.unity.localization
+Assets/StreamingAssets
+Assets/StreamingAssets.meta

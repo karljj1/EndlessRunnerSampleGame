@@ -298,3 +298,10 @@ MonoBehaviour:
     m_Id: 40
     m_Translated:
     - "\u7D04"
+  - m_Comments:
+      translatorComments: []
+      extractedComments: []
+      referenceComments: []
+    m_Id: 41
+    m_Translated:
+    - "\u7279\u64AE"

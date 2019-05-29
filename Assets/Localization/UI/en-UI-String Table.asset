@@ -302,3 +302,10 @@ MonoBehaviour:
     m_Id: 40
     m_Translated:
     - About
+  - m_Comments:
+      translatorComments: []
+      extractedComments: []
+      referenceComments: []
+    m_Id: 41
+    m_Translated:
+    - SFX
